@@ -1,0 +1,130 @@
+/* 
+   Reset
+*/
+*{
+margin: 10;
+padding: 10;
+box-sizing: border-box;
+}
+body{
+background-color: bisque;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+width: 500px;
+line-height: 10px;
+max-width: 500px;
+max-width: 550px;
+margin: 60px auto;
+background-color: white;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+h1{
+text-align: center;
+margin-bottom: 10px;
+color: rgb(0, 0, 0);
+word-spacing: 5px;
+padding: 5px;
+font-size: 25px;
+height: 4px;
+}
+.welcome{
+text-align: center;
+color: black;
+margin-bottom: 30px;
+}
+.card-section{
+text-align: center;
+margin-bottom: 25px;
+}
+.card-section h2{
+margin-bottom: 25px;
+color:gray;
+}
+.login-form{
+margin-top: 30px;
+}
+label{
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+input{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 20px;
+}
+input:focus{
+outline: none;
+border-color: #0b6fa4;
+}
+button{
+width: 100%;
+padding: 12px;
+background-color: #0b6fa4;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+button:hover{
+background-color: #09567e;
+}
+button:active{
+background-color: #084c73;
+transform: scale(0.98);
+
+}
+.status-section h2{
+font-size: 20px;
+margin-bottom: 6px;
+}
+
+#status{
+font-size: 14px;
+}
+#amount{
+width: 100%;
+padding: 10px;
+margin-bottom: 12px;
+box-sizing: border-box;
+}
+.success{
+color: green;
+font-weight: bold;
+}
+.error{
+color: crimson;
+font-weight: bold;
+}
+.menu-section{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.history-section h3{
+font-size: 20px;   
+margin-bottom: 10px;
+}
+.history-section{
+margin-top: 15px;  
+}
+.history-section h2{
+font-size: 20px;
+margin-bottom: 6px;
+}
+#transactionList li{
+padding: 5px 8px;
+margin-bottom: 5px;
+font-size: 13px;
+border-left: 3px solid #0d6efd;
+}
+#amount{
+    padding:12px;
+    border-radius:8px;
+    width:100%;
+    font-size:16px;
+}
